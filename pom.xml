@@ -6,7 +6,7 @@
 
     <groupId>org.echo</groupId>
     <artifactId>ChatFormatting-Premium</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packaging>jar</packaging>
 
     <name>ChatFormatting-Premium</name>

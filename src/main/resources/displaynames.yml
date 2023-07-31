@@ -1,3 +1,12 @@
+# ----------- Information -----------
+
+# Author: Echo24h
+# This plugin is licensed
+
+# Documentation: https://www.spigotmc.org/resources/chatformatting-premium-1-13-x-1-20-x.110976/
+
+# ----------- Config -----------
+
 #  Players name in chat if it has no display-name
 # - {name}: Replaced with the player's name
 basic-display-name:
