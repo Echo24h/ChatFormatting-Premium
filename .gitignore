@@ -28,6 +28,7 @@ out/
 *.ipr
 *.iws
 *.iml
+.idea/
 
 # Mac OS specific files
 .DS_Store
