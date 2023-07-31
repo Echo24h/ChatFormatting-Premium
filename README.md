@@ -4,7 +4,7 @@ Tested Minecraft Versions: 1.13 - 1.20
 
 Languages Supported: Custom
 
-![Support Button](support-button.png)
+**Donation Link:** [Support us on PayPal](https://www.paypal.com/donate/?hosted_button_id=J4Y27JYWLYLBG)
 
 Join our Discord community for support and updates: [Discord Invite](https://discord.com/invite/Xf3PjwXzKg)
 
