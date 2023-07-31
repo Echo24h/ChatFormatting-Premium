@@ -1,5 +1,7 @@
 # ChatFormatting Premium Minecraft Plugin
 
+**Plugin Page:** [Buy .jar](https://www.spigotmc.org/resources/chatformatting-premium-1-13-x-1-20-x.110976/)
+
 Tested Minecraft Versions: 1.13 - 1.20
 
 Languages Supported: Custom
