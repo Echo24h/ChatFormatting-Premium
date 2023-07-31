@@ -1,0 +1,48 @@
+name: ChatFormatting-Premium
+version: '${project.version}'
+main: org.echo.chatformattingpremium.ChatFormatting
+api-version: '1.13'
+
+author: Azurix
+description: A plugin to allow players to format chat
+
+permissions:
+  chatformatting.links:
+    description: Allows you to use links in chat
+    default: op
+  chatformatting.mention.*:
+    description: Allows you to use all mentions in chat
+    default: op
+  chatformatting.mention.everyone:
+    description: Allows you to use everyone mention in chat
+    default: op
+  chatformatting.mention.player:
+    description: Allows you to use player mention in chat
+    default: true
+  chatformatting.item:
+    description: Allows you to use items in chat
+    default: true
+  chatformatting.reload:
+    description: Allows you to reload ChatFormatting plugin
+    default: op
+  chatformatting.*:
+    description: Wildcard permission
+    default: op
+    children:
+      - chatformatting.links: true
+      - chatformatting.mention.*: true
+      - chatformatting.mention.everyone: true
+      - chatformatting.mention.player: true
+      - chatformatting.item: true
+      - chatformatting.reload: true
+
+commands:
+  chatformatting:
+    aliases:
+      - chat
+      - cf
+    subcommands:
+      reload:
+        description: Reload ChatFormatting plugin
+        usage: /<command> reload
+        permission: chatformatting.reload

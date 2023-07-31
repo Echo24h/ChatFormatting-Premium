@@ -1,0 +1,72 @@
+# !!! Please note that the usage of custom color codes and gradients
+# is only supported in Minecraft versions 1.16 and above !!!
+
+# For servers lower than version 1.16 only
+disable-color-version-alert: false
+
+# In the configuration above, you can define custom color codes
+# and gradients to enhance your chat experience. Each character,
+# such as "A", "b", or "C", represents a unique color code that
+# can be used in your messages.
+
+# Under the custom section, you can assign a specific hexadecimal
+# color value to each character. For example, the character
+# "A" represents the color Lime (#55FF55), and the character
+# "c" represents the color Red (#CF0000).
+
+custom:
+  A:
+    color: "#55FF55" # Lime
+  b:
+    color: "#B2EAF4" # Light Blue 1
+  B:
+    color: "#B0BFFF" # Light Blue 2
+  c:
+    color: "#CF0000" # Red
+  C:
+    color: "#FF55FF" # Light Purple
+  D:
+    color: "#FFFF55" # Light Yellow
+  E:
+    color: "#55FFFF" # Aqua
+  F:
+    color: "#FF55FF" # Pink
+
+# In the gradiant section, you can define gradients using two color codes.
+# Each character, like "P", "Q", or "R", represents a unique gradient.
+# For example, the gradient defined by "P" transitions from Red (#FF0000) to Green (#00FF00).
+
+gradiant:
+  P:
+    color1: "#FF0000" # Red
+    color2: "#00FF00" # Green
+  Q:
+    color1: "#0000FF" # Blue
+    color2: "#FFFF00" # Yellow
+  R:
+    color1: "#FF00FF" # Magenta
+    color2: "#00FFFF" # Cyan
+  S:
+    color1: "#FFA500" # Orange
+    color2: "#800080" # Purple
+  T:
+    color1: "#FFC0CB" # Pink
+    color2: "#FF1493" # Deep Pink
+  U:
+    color1: "#7FFF00" # Chartreuse
+    color2: "#000080" # Navy
+  V:
+    color1: "#FF4500" # Orange Red
+    color2: "#8A2BE2" # Blue Violet
+  W:
+    color1: "#FF8C00" # Dark Orange
+    color2: "#2E8B57" # Sea Green
+  X:
+    color1: "#FFD700" # Gold
+    color2: "#008080" # Teal
+  Y:
+    color1: "#1E90FF" # Dodger Blue
+    color2: "#4B0082" # Indigo
+  Z:
+    color1: "#FFFFFF" # White
+    color2: "#404040" # Dark Gray

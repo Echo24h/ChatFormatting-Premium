@@ -1,0 +1,33 @@
+#  Players name in chat if it has no display-name
+# - {name}: Replaced with the player's name
+basic-display-name:
+  prefix: '&e&l&oNew&r '
+  suffix: ':&f '
+
+# Set prefix in the tablist
+display-in-tab-list: true
+
+# Period in tick (20 == 1s) for update DisplayNames
+tick-update-period: 50
+
+# Configuration for formatting player names in chat
+# - {name}: Replaced with the player's name
+# - "permission" Permission required for this format
+# - "priority" Priority level for this format (higher values override lower values)
+# - "display" Format display for default players
+display-name:
+  default:
+    permission: "group.default"
+    priority: 10
+    prefix: "&8&l&oMember&r "
+    suffix: ':&f '
+  gold:
+    permission: "group.gold"
+    priority: 20
+    prefix: "&6&l&oGold&r "
+    suffix: ':&f '
+  admin:
+    permission: "group.admin"
+    priority: 100
+    prefix: "&l&o&SAdmin &r&Z"
+    suffix: '&r:&f '

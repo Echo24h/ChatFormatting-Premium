@@ -1,0 +1,35 @@
+# ---- Join/Quit ----
+
+# Player join message
+server-player-join: "&7[&a+&7]&r &o{name}"
+
+# Player welcome message for first-time join
+server-player-welcome: "&SWelcome to the server!&r&o {name}"
+
+# Player quit message
+server-player-quit: "&7[&c-&7]&r &o{name}"
+
+# ---- Mention ----
+
+# Mention information message
+# - {name} replace with the name of the one who mentioned
+mention-info: "{name} &ementioned you!"
+
+# ---- Links ----
+
+# Links information message
+links-info: "&cBeware of links"
+
+# ---- Permissions ----
+
+# Links permission message
+links-permission: "&cYou are not authorized to use links"
+
+# Item permission message
+item-permission: "&cYou are not authorized to use item"
+
+# Mention permission message
+mention-permission: "&cYou are not authorized to use this mention"
+
+# Commands permission message
+commands-permission: "&cYou don't have permission to use this command"

@@ -1,0 +1,24 @@
+# ----------- Support / Update -----------
+
+# Discord: https://discord.com/invite/Xf3PjwXzKg
+
+# Documentation: https://www.spigotmc.org/resources/chatformatting-premium-1-13-x-1-20-x.110976/
+
+# ----------- Config -----------
+
+# Replacement text for clickable links
+replacement-of-link: '&l&n&o&bLINK'
+
+# Replacement text for item in chat (use [item] for put your hand item in chat)
+# - {name}: Replaced with the name of item
+replacement-of-item: '&o&7[&e{name}&7]'
+
+# Replacement text for mention
+# - {name}: Replaced with the targeted player name or 'everyone'
+replacement-of-mention: '&b&o@{name}'
+
+# Activates a small sound when sending/receiving player chats
+chat-notification-sound: true
+
+# Activates a sound when receiving mention
+mention-notification-sound: true

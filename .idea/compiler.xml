@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ChatFormatting-Premium" />
+        <module name="ChatFormatting" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoBroadcast" target="1.8" />
+      <module name="Cheat" target="1.8" />
+      <module name="DisableCommands" target="1.8" />
+      <module name="DonationCampaign" target="1.8" />
+      <module name="MyDonationGUI" target="1.8" />
+      <module name="MyKitsGUI" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

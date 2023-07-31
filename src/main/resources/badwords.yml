@@ -1,0 +1,197 @@
+# Enable filtering of bad words
+badwords-filtering: true
+
+# An in-depth search to also ban words written with several identical letters
+# - example: "baaadwooord"
+ultra-filtering: true
+
+# Replacement of bad word
+badwords-replacement: '***'
+
+# Default language for filtering
+# - English: 'en'
+# - Español: 'es'
+# - Francais: 'fr'
+# - Deutsch: 'de'
+# You can add one in the languages section
+default-language: en
+
+# Bad words for each language
+languages:
+  en:
+    - badword
+    - dick
+    - fuckable
+    - fuck
+    - kiss
+    - bend
+    - wank
+    - handjob
+    - mess
+    - balls
+    - tiresome
+    - boring
+    - shits
+    - take a dump
+    - stupid
+    - bullshit
+    - ball
+    - balls
+    - ballsy
+    - ass
+    - messing around
+    - mess around
+    - piss off
+    - boring
+    - annoying
+    - bugger
+    - screw up
+    - yell
+    - shit
+    - crappy
+    - fuck your mother
+    - piss
+    - whore
+    - get rid of
+    - suck
+    - shut up
+    - jig
+
+  es:
+    - polla
+    - follable
+    - mierda
+    - beso
+    - doblar
+    - hacerse una paja
+    - paja
+    - desorden
+    - pelotas
+    - aburrido
+    - mierdas
+    - echar un basurero
+    - baño
+    - estúpido
+    - pelota
+    - valiente
+    - culo
+    - jugando
+    - perder el tiempo
+    - cabrear
+    - irritante
+    - cabrón
+    - joder
+    - pipa
+    - boca
+    - gritar
+    - vete a la mierda a tu madre
+    - orinar
+    - puta
+    - rubignoles
+    - rupetas
+    - rutas
+    - deshacerse de
+    - chupar
+    - Cállate
+    - plantilla
+
+  fr:
+    - bite
+    - baisable
+    - baise
+    - baiser
+    - bander
+    - branler
+    - branlette
+    - bordel
+    - burnes
+    - chiant
+    - chiante
+    - chiasse
+    - chier
+    - chiottes
+    - chiotte
+    - con
+    - conne
+    - connerie
+    - coucougnettes
+    - coucougnette
+    - couille
+    - couilles
+    - couillu
+    - cul
+    - déconner
+    - deconner
+    - emmerder
+    - emmerde
+    - emmerdant
+    - emmerdante
+    - emmerdeur
+    - emmerdeuse
+    - enculer
+    - entuber
+    - pipe
+    - foutre
+    - gueule
+    - gueuler
+    - merde
+    - merdier
+    - merdique
+    - niquer
+    - nique ta mère
+    - nique ta mere
+    - pisser
+    - pisse
+    - putain
+    - pute
+    - roubignoles
+    - roupettes
+    - roustons
+    - démerder
+    - sucer
+    - ta gueule
+    - turlutte
+    - zigounette
+    - zob
+    - zeub
+
+  de:
+    - Schwanz
+    - fickbar
+    - Scheiße
+    - Kuss
+    - biegen
+    - wichsen
+    - Handjob
+    - Durcheinander
+    - Bälle
+    - ermüdend
+    - Nimm eine Müllkippe
+    - dumm
+    - Quatsch
+    - Coucougetten
+    - Kugel
+    - draufgängerisch
+    - Arsch
+    - herumblödeln
+    - herum albern
+    - Verpiss dich
+    - langweilig
+    - nervig
+    - Mistkerl
+    - vermasseln
+    - Rohr
+    - Mund
+    - Schrei
+    - Scheisse
+    - beschissen
+    - Fick deine Mutter
+    - Pisse
+    - Hure
+    - Rubignolen
+    - Rouetten
+    - Routons
+    - beseitigen
+    - abschütteln
+    - den Mund halten
+    - Vorrichtung

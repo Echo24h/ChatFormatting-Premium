@@ -1,0 +1,30 @@
+Custom License Agreement
+
+This is a full and legally binding license agreement for personal and non-commercial use only.
+
+1. You are authorized to use this code for personal and non-commercial purposes only.
+
+2. You may not distribute this code, in its original or modified form, to anyone.
+
+3. You may not use this code for commercial purposes, including, but not limited to,
+   selling products or services.
+
+4. Any use of the code must remain in your possession and must not be shared, sold,
+   rented, or distributed in any way.
+
+5. You are not allowed to modify, copy, reproduce, translate, reverse engineer, or
+   decompile any part of this code.
+
+6. This code is provided "as is," without warranty of any kind. The code's author
+   assumes no responsibility for any damages or losses resulting from the use of this
+   code.
+
+7. You agree that the author retains all rights to the code, including copyright
+   and intellectual property rights.
+
+8. You agree that the author may modify the terms of this license at any time.
+
+9. By using this code, you accept all the conditions of this license.
+
+10. If you do not agree to the terms of this license, you are not authorized to use
+    this code.
