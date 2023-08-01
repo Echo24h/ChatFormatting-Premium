@@ -12,28 +12,30 @@ import java.util.Map;
 public class ItemFormat_1_13 {
 
     public static TextComponent getItemHoverText(ItemStack itemStack, String itemName) {
+
         TextComponent hoverText;
 
         ItemMeta itemMeta = itemStack.getItemMeta();
 
-        if (itemMeta != null && itemMeta.hasDisplayName()) {
-            if (itemMeta.hasEnchants())
-                hoverText = new TextComponent(ChatColor.AQUA + itemMeta.getDisplayName());
-            else
+        // Get item name
+        if (itemMeta != null) {
+            if (itemMeta.hasDisplayName())
                 hoverText = new TextComponent(itemMeta.getDisplayName());
-        }
-        else {
-            if (itemMeta != null && itemMeta.hasEnchants())
-                hoverText = new TextComponent(ChatColor.AQUA + itemName);
             else
                 hoverText = new TextComponent(itemName);
+            if (itemMeta.hasEnchants())
+                hoverText.setColor(ChatColor.AQUA);
         }
+        else
+            hoverText = new TextComponent(itemName);
 
+        // Get lore
         StringBuilder extraText = new StringBuilder();
         if (itemMeta != null && itemMeta.hasLore()) {
             extraText.append(ChatColor.WHITE + "\n" + String.join("\n", itemMeta.getLore()));
         }
 
+        // Get enchants
         if (itemMeta != null && itemMeta.hasEnchants()) {
             extraText.append(ChatColor.GRAY + "\n" + getEnchantmentList(itemStack));
         }
