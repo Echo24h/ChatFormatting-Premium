@@ -14,7 +14,7 @@ Join our Discord community for support and updates: [Discord Invite](https://dis
 
 The ChatFormatting plugin is a powerful solution that revolutionizes how players communicate in Minecraft. With this plugin, you can customize your chat text, allowing for unique and eye-catching messages.
 
-## Chat Usage
+## Features
 
 - `&l`, `&S`, `&X`, etc...: Allow using basic and custom color codes in the chat.
 - `[item]`: Displays the item in your hand in the chat.
